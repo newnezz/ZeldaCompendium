@@ -44,7 +44,7 @@ function App() {
       margin: '25px',
       
     }}>
-      <h1>Zelda App - ALL https://docs.zelda.fanapis.com/ data</h1>
+      <div style={{gap: '10px', marginBottom: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center'}}><img src="./triforce.gif" height="100px" width="100px" alt=""/><h1>Zelda Compendium</h1><img  height="100px" width="100px" src="./triforce.gif" alt=""/></div>
       <div style={{display: 'flex', gap: '25px', justifyContent: 'center'}}>
         <button onClick={() => setPage('games')}>Games</button>
         <button onClick={() => setPage('characters')}>Characters</button>
